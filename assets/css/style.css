@@ -1,0 +1,101 @@
+body {
+    background-color: pink;
+}
+
+header {
+    padding: 15px;
+    padding-bottom: 0px;
+    font-family: 'Century Gothic', 'Malgun Gothic', 'Lucida Console', 'Lucida Sans', Arial, Helvetica, sans-serif;
+    background-color: palevioletred;
+    color: white;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 50px;
+    padding: 20px;
+    background-color: lightcoral;
+}
+
+nav { 
+    padding-top: 10px;
+    margin-right: 20px;
+    float: right;
+    font-size: 30px;
+    font-family: 'Century Gothic', 'Malgun Gothic', 'Lucida Console', 'Lucida Sans', Arial, Helvetica, sans-serif;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.links::before {
+    content: '💖'
+}
+
+.links {
+    color: gold;
+    text-decoration: none;
+}
+
+.subtitle {
+    height: 300px;
+    width: 100%;
+    background-image: url("https://wallpaper.dog/large/10941355.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.subtitle h2 {
+    font-size: 40px;
+    width: 200px;
+    padding: 20px;
+    margin-top: 175px;
+    margin-right: 80px;
+    float: right;
+    color: white;
+    background-color: lightcoral;
+    text-align: center;
+    font-family: 'Century Gothic', 'Malgun Gothic', 'Lucida Console', 'Lucida Sans', Arial, Helvetica, sans-serif;
+}
+
+.title {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title h2 {
+    font-size: 36px;
+    font-family: 'Century Gothic', 'Malgun Gothic', 'Lucida Console', 'Lucida Sans', Arial, Helvetica, sans-serif;
+    text-align: right;
+    width: 210px;
+    padding: 20px;
+    margin: 20px;
+    border-right: 10px hotpink solid;
+    /* Ask about float, it doesn't seem to make a difference. */
+    /* float: left; */
+}
+
+.text {
+    width: 50%;
+    height: auto;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.links2 {
+    color: red;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#email::before {
+    content: '✉️'
+}
