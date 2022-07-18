@@ -69,7 +69,7 @@ nav ul li {
     flex-wrap: wrap;
 }
 
-.title h2 {
+.title h3 {
     font-size: 36px;
     font-family: 'Century Gothic', 'Malgun Gothic', 'Lucida Console', 'Lucida Sans', Arial, Helvetica, sans-serif;
     text-align: right;
@@ -97,5 +97,13 @@ nav ul li {
 }
 
 #email::before {
-    content: '✉️'
+    content: '✉️';
+}
+
+#phone::before {
+    content: '📱';
+}
+
+#linkedin::before {
+    content: '🔗';    
 }

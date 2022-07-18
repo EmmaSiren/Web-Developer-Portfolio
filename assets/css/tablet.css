@@ -1,0 +1,55 @@
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 45px;
+        padding-left: 20x;
+        padding-right: 20px;
+        margin-bottom: 0;
+    }
+
+    nav { 
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .subtitle {
+        display: flex;
+    }
+
+    .subtitle h2 {
+        font-size: 30px;
+        margin: auto;
+        width: auto;
+        padding: 20px;
+    }
+
+    h3#aboutme {
+        font-size: 30px;
+        text-align: left;
+        height: 50px;
+        width: auto;
+        border-right: 8px hotpink solid;
+        border-bottom: none;
+    }
+
+  /* .title #mywork {
+      justify-content: center;
+    } */
+
+    h3#mywork {
+        font-size: 60px;
+        width: 75%;
+        text-align: center;
+        margin: 2px;
+    }
+    
+    .title h3 {
+        text-align: center;
+        border-right: none;
+        border-bottom: 10px hotpink solid;
+    }
+}
