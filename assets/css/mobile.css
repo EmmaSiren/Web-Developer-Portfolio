@@ -42,4 +42,23 @@
         border-right: none;
         border-bottom: 10px hotpink solid;
     }
+
+    .projects {
+        width: auto;
+        height: auto;
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #one img {
+        width: 400px;
+        height: auto;
+    }
+    
+    .others {
+        width: 300px;
+        height: auto;
+    }
 }

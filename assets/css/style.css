@@ -50,7 +50,6 @@ nav ul li {
 
 .subtitle h2 {
     font-size: 40px;
-    width: 200px;
     padding: 20px;
     margin-top: 175px;
     margin-right: 80px;
@@ -85,15 +84,69 @@ nav ul li {
     width: 50%;
     height: auto;
     margin: 10px;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+}
+
+.projects {
+    width: 75%;
+    height: auto;
+    margin: 10px;
+    margin-top: 55px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    position: relative;
+}
+
+/* .projects
+#one */
+
+.text-wrapper {
+    width: auto;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+}
+
+.text-wrapper h4 {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    background-color: white;
+}
+
+#one img {
+    width: 800px;
+    height: auto;
+}
+
+#one {
+   margin: 20px;
+}
+.others {
+    width: 380px;
+    height: auto;
+    margin: 20px;
+}
+
+.projects .others, #one {
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+#one:hover, .others:hover {
+    box-shadow: inset 0px 0px 35px rgb(221, 200, 213), 0 0 30px rgb(255, 48, 172);
+    transform: scale(1.1);
 }
 
 .links2 {
     color: red;
     text-decoration: none;
     font-size: 30px;
+    
 }
 
 #email::before {
