@@ -76,8 +76,6 @@ nav ul li {
     padding: 20px;
     margin: 20px;
     border-right: 10px hotpink solid;
-    /* Ask about float, it doesn't seem to make a difference. */
-    /* float: left; */
 }
 
 .text {
@@ -101,43 +99,43 @@ nav ul li {
     position: relative;
 }
 
-/* .projects
-#one */
-
-.text-wrapper {
-    width: auto;
-    position: absolute;
-    top: 8px;
-    left: 20px;
+#big {
+    margin: 20px;
 }
 
-.text-wrapper h4 {
-    text-align: center;
-    font-size: 50px;
-    color: black;
-    background-color: white;
-}
-
-#one img {
+#big img {
     width: 800px;
     height: auto;
 }
 
-#one {
-   margin: 20px;
+.imgtext {
+    position: absolute;
+    width: 800px;
+    margin-top: 30%;
+    font-size: 50px;
+    text-align: center;
 }
+
+.imgtext2 {
+    position: absolute;
+    width: 380px;
+    margin-top: 75%;
+    font-size: 50px;
+    text-align: center;
+}
+
 .others {
     width: 380px;
     height: auto;
     margin: 20px;
 }
 
-.projects .others, #one {
+#big, #big img, .others {
     border-radius: 15px;
     transition: all 0.5s ease-in-out;
 }
 
-#one:hover, .others:hover {
+#big:hover, .others:hover {
     box-shadow: inset 0px 0px 35px rgb(221, 200, 213), 0 0 30px rgb(255, 48, 172);
     transform: scale(1.1);
 }
