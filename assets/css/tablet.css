@@ -46,8 +46,8 @@
         border-bottom: 10px hotpink solid;
     }
 
-    p {
-        width: 700px;
+    .text {
+        text-align: center;
     }
 
     .text {
@@ -72,6 +72,41 @@
     .others {
         width: 326px;
         height: auto;
+    }
+
+    #imgtext1 {
+        position: absolute;
+        font-size: 26px;
+        margin-right: 547px;
+        margin-top: 10%;
+    }
+    
+    #imgtext2, #imgtext3, #imgtext4, #imgtext5 {
+        font-size: 20px;
+    }
+
+    #imgtext2 {
+        margin-top: 85%;
+        margin-right: 574px;
+    }
+    
+    #imgtext3 {
+        margin-top: 85%;
+        margin-left: 178px;
+    }
+    
+    #imgtext4 {
+        margin-top: 125%;
+        margin-right: 574px;
+    }
+    
+    #imgtext5 {
+        margin-top: 125%;
+        margin-left: 178px;
+    }
+
+    div.contactinfo {
+        width: 75%;
     }
 
    .text nav {

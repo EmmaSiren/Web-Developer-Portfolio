@@ -43,6 +43,16 @@
         border-bottom: 10px hotpink solid;
     }
 
+    img#avatar {
+        margin: 0;
+    }
+
+    .text {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
     .projects {
         width: auto;
         height: auto;
@@ -60,5 +70,38 @@
     .others {
         width: 300px;
         height: auto;
+    }
+
+    #imgtext1 {
+        position: absolute;
+        font-size: 18px;
+        margin-right: 294px;
+        margin-top: 10%;
+    }
+    
+    #imgtext2, #imgtext3, #imgtext4, #imgtext5 {
+        font-size: 15px;
+        margin-left: 0;
+        margin-right: 191px;
+    }
+
+    #imgtext2 {
+        margin-top: 90%;
+    }
+    
+    #imgtext3 {
+        margin-top: 152%;
+    }
+    
+    #imgtext4 {
+        margin-top: 214%;
+    }
+    
+    #imgtext5 {
+        margin-top: 278%;
+    }
+
+    div.contactinfo {
+        padding-bottom: 50px;
     }
 }
